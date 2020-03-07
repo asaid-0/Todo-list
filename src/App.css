@@ -1,0 +1,85 @@
+:root{
+  width: 100%;
+  height: 100%;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  /* border-radius: 50%; */
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.search-container{
+  display: block;
+  width: 100%;
+}
+.search-container input{
+  height: 2rem;
+  width: 100%;
+}
+
+.navbar{
+  max-height: 4rem;
+  width: 100%;
+  background-color: #191919;
+  font-family: sans-serif;
+
+}
+.navbar li {
+  display: inline-block;
+  padding: 2rem;
+}
+.navbar li a{
+  text-decoration: none;
+  color: none;
+  color: #e3e3e3;
+  text-decoration: none;
+  background: #3e3e3e;
+  padding: 1rem;
+  border-radius: 10%;
+  font-size: 1.5rem;
+}
+.navbar li a:hover{
+  text-decoration: none;
+  color: none;
+  background-color: darkslategrey;
+
+}
+
+body {
+  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png");
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
